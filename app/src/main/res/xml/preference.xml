@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:custom="http://schemas.android.com/apk/res-auto" >
+
+    <de.mrapp.android.preference.ListPreference
+        android:defaultValue="1"
+        custom:min="1"
+        android:entries="@array/wallpaper_names"
+        android:entryValues="@array/wallpaper_names_entry"
+        custom:dialogTitleColor="@android:color/black"
+        custom:dialogMessageColor="@android:color/black"
+        custom:dialogButtonTextColor="@android:color/black"
+        custom:dialogBackground="@android:color/white"
+        custom:dialogItemColor="@android:color/black"
+        android:dialogMessage="@string/picture_preference_dialog_message"
+        android:dialogTitle="@string/picture_preference_dialog_title"
+        android:key="@string/picture_preference_key"
+        android:summary="@string/picture_preference_dialog_message"
+        android:title="@string/picture_preference_dialog_title"
+        custom:showValueAsSummary="false"/>
+
+    <de.mrapp.android.preference.ListPreference
+        android:defaultValue="2"
+        custom:min="1"
+        android:entries="@array/list_preference"
+        android:entryValues="@array/list_preference_entry"
+        custom:dialogTitleColor="@android:color/black"
+        custom:dialogMessageColor="@android:color/black"
+        custom:dialogButtonTextColor="@android:color/black"
+        custom:dialogBackground="@android:color/white"
+        custom:dialogItemColor="@android:color/black"
+        android:dialogMessage="@string/list_preference_dialog_message"
+        android:dialogTitle="@string/list_preference_dialog_title"
+        android:key="@string/list_preference_key"
+        android:summary="@string/list_preference_dialog_message"
+        android:title="@string/list_preference_dialog_title"
+        custom:showValueAsSummary="false"/>
+
+    <de.mrapp.android.preference.SeekBarPreference
+        android:title="@string/seek_bar_preference_title"
+        android:summary="@string/seek_bar_preference_summaries"
+        android:key="@string/seek_bar_preference_key"
+        android:defaultValue="50"
+        custom:min="10"
+        android:max="150"
+        custom:useInputMethod="false"
+        custom:wrapSelectorWheel="false"
+        custom:dialogTitleColor="@android:color/black"
+        custom:dialogMessageColor="@android:color/black"
+        custom:dialogButtonTextColor="@android:color/black"
+        custom:dialogBackground="@android:color/white"
+        android:dialogMessage="@string/seek_bar_preference_summaries"
+        android:dialogTitle="@string/seek_bar_preference_title"
+        custom:stepSize="1"
+        custom:showValueAsSummary="false"/>
+
+</PreferenceScreen>

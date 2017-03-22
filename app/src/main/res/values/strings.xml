@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Анютины Обои</string>
+
+    <string name="description">Котячьи обои</string>
+
+    <string name="list_preference_dialog_message">Котенку нужно выбрать, какой объект будет
+        двигаться на экране</string>
+    <string name="list_preference_dialog_title">Выбор движущегося объекта</string>
+    <string name="seek_bar_preference_title">Скорость анимации</string>
+    <string name="seek_bar_preference_summaries">Здесь котенок может изменить скорость движущихся
+        объектов на экране</string>
+    <string name="picture_preference_dialog_message">Здесь котенок может выбрать, какая картинка
+        будет отображаться в качетве фона обоев</string>
+    <string name="picture_preference_dialog_title">Выбор фоновой картинки</string>
+
+    <array name="wallpaper_names">
+        <item>59-Й КИЛИМЕТР НЕОБЫЧАЕН!</item>
+        <item>ВСЕ ХОТЯТ БЫТЬ ДОСЕЙ!</item>
+        <item>ПЕРВЫЙ ДЕНЬ ДОСИ</item>
+        <item>И ЗИМА БЫВАЕТ КРАСИВОЙ</item>
+        <item>НАША ВТОРАЯ ЗИМА!!!</item>
+        <item>КОТЕНОК, ПОЛЮБИ ЗИМУ!</item>
+        <item>Я ВСЕГДА УЛЫБАЮСЬ...</item>
+        <item>КОТЕНОК, ПУСТИ НА УЛИЦУ!</item>
+        <item>ОНИ УЖЕ ЛУЧШИЕ ДРУЗЬЯ</item>
+        <item>ОН НАС СОЕДИНИЛ...</item>
+    </array>
+
+    <string-array name="wallpaper_names_entry">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+
+    <string-array name="list_preference_entry">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="list_preference">
+        <item>Капелька</item>
+        <item>Сердечко</item>
+        <item>Снежинка</item>
+        <item>Шарик</item>
+        <item>Звездочка</item>
+    </string-array>
+
+    <string name="list_preference_key">list_preference_key</string>
+    <string name="seek_bar_preference_key">seek_bar_preference_key</string>
+    <string name="picture_preference_key">picture_preference_key</string>
+</resources>

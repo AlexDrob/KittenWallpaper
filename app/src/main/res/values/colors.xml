@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorActionBar">#FF9800</color>
+
+    <color name="Amber_300">#FFD54F</color>
+    <color name="Yellow_400">#FFEE58</color>
+    <color name="Lime_A400">#C6FF00</color>
+    <color name="LightBlue_300">#4FC3F7</color>
+    <color name="LightBlue_600">#039BE5</color>
+    <color name="Cyan_300">#4DD0E1</color>
+    <color name="DeepOrange_400">#FF7043</color>
+    <color name="Purple_300">#BA68C8</color>
+    <color name="Pink_300">#F06292</color>
+    <color name="Red_400">#EF5350</color>
+
+    <array name="recycler_view_colors">
+        <item>@color/Amber_300</item>
+        <item>@color/Yellow_400</item>
+        <item>@color/Lime_A400</item>
+        <item>@color/LightBlue_300</item>
+        <item>@color/LightBlue_600</item>
+        <item>@color/Cyan_300</item>
+        <item>@color/DeepOrange_400</item>
+        <item>@color/Purple_300</item>
+        <item>@color/Pink_300</item>
+        <item>@color/Red_400</item>
+    </array>
+</resources>
